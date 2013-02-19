@@ -1,19 +1,20 @@
 package com.nox.pingdroid;
 
+import java.util.Arrays;
+import java.util.List;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import com.example.pingdroid.R;
+
 import com.nox.pingdroid.async.MRequest;
 import com.nox.pingdroid.async.MTask;
 import com.nox.pingdroid.async.Queue;
 import com.nox.pingdroid.async.event.MTaskResult;
-import de.greenrobot.event.EventBus;
 
-import java.util.Arrays;
-import java.util.List;
+import de.greenrobot.event.EventBus;
 
 public class MyActivity extends Activity {
     private static final String TAG = MyApplication.TAG+"/"+MyActivity.class.getSimpleName();
