@@ -11,6 +11,7 @@
 # generated files
 bin/
 gen/
+.apt_generated/
 
 # build dir
 target/
