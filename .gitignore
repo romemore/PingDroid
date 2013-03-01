@@ -11,6 +11,10 @@
 # generated files
 bin/
 gen/
+.apt_generated/
+
+# build dir
+target/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -18,6 +22,7 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+.settings
 
 # Intellij project files
 *.iml
